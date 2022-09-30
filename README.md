@@ -8,13 +8,9 @@ The project currently available (which contains two other projects) is one where
 within a virtual environment in Gazebo, both of which were created as a part of the other projects referenced.
 
 The two images below show the main acheivements of the project.
-    - First:  The robot could be localized using the Adaptive Monte Carlo Localization algorithm
-              
-              // Add more description
+    - First:  The robot could be localized using the Adaptive Monte Carlo Localization algorith (Add more description)
     
-    - Second: The robot could then be instructed to move around in its environment with the localilzation remaining stable.
-              
-              // Add more description
+    - Second: The robot could then be instructed to move around in its environment with the localilzation remaining stable. 
 
 ![image](https://user-images.githubusercontent.com/50437257/190842097-f63425a2-63d4-4ba0-8916-79061dd8e8d9.png)
 
