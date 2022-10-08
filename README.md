@@ -1,6 +1,6 @@
 # UdacityRoboticsSoftwareEngineering
 The projects that I completed for the Udacity Robotics Software Engineering course.
-(The course is still process, the rest of the projects will be uploaded as soon as I complete them).
+(The course is still in process, the rest of the projects will be uploaded as soon as I complete them).
 
 This repository contains the projects I was able to complete as a part of the Robotics Software Engineering course at Udacity.com.
 
