@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <launch>
-   <!-- TODO: Tune parameters to make amcl efficient -->
-   <!-- Robot's current behavior, it just spins around in circles -->
-   <!-- The particle cloud seems to diverge instead of converge-->
-   <!-- The robot spins counter clockwise, and before it stops there is an error in terminal launch file was called from for amcl-->
-   <!-- Error: Aborting because a valid plan could not be found. Even after executing all recovery behaviors -->
+   <!-- Accomplished: Tuned parameters to make amcl efficient -->
    
    <!-- Map server node -->
    <arg name="map_file" default="$(find my_robot)/maps/map.yaml"/>
