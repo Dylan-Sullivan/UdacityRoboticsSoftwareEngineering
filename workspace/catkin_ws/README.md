@@ -1,3 +1,0 @@
-This is the catkin workspace, the location from which the software processes that define the robot, and its environment, can be built, and the associated code compiled.
-
-to make a catkin workspace (assuming ROS is installed and there is a roscore running), simply create a directory called catkin_ws, and within that directory create another called src. Inside of src, run the command "catkin_init_workspace" within a terminal. The directory should then be populated with a text file, CMakeLists.txt, this will be used for the build and compilation processes. (ADD - A picture is included below to aid with this description.)
