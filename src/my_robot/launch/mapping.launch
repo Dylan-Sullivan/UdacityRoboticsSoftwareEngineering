@@ -2,10 +2,10 @@
 
 <launch>
   <!-- The arguments for the launch file with defaults provided -->
-  <arg name="database_path" defualt="rtabmap.db"/>
-  <arg name="rgb_topic" defualt="/camera/rgb/image_raw"/>
-  <arg name="depth_topic" defualt="/camera/depth/image_raw"/>
-  <arg name="camera_info_topic" defualt="/cmaera/rgb/camera_info"/>
+  <arg name="database_path" default="rtabmap.db"/>
+  <arg name="rgb_topic" default="/camera/rgb/image_raw"/>
+  <arg name="depth_topic" default="/camera/depth/image_raw"/>
+  <arg name="camera_info_topic" default="/cmaera/rgb/camera_info"/>
   
   <!-- Mapping Node -->
   <group ns="rtabmap">
@@ -37,10 +37,10 @@
       <param name="Kp/DetectorStrategy" type="string" value="0"/>
       
       <!-- Maximum visual words per image (bag-of-words) -->
-      <param name="Kp/MaxFeatures" type="string" value="0"/>
+      <param name="Kp/MaxFeatures" type="string" value="400"/>
       
       <!-- Used to extract more or less SURF features -->
-      <param name="SURF/HessianThreshold" type="" value="400"/>
+      <param name="SURF/HessianThreshold" type="" value="100"/>
       
       <!-- Loop Close Constraint -->
       <!-- 0=Visual, 1=ICP (1 requires scan) -->
